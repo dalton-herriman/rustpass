@@ -5,6 +5,9 @@ use clap::Parser;
 
 mod cli;
 mod entry;
+mod db;
+
+use crate::db::db_sqlite;
 
 fn main() -> Result<()> {
     // Initialize the logger (reads RUST_LOG env var)
