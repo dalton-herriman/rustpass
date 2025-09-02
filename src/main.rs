@@ -25,9 +25,9 @@ fn main() -> Result<()> {
         Commands::Delete { name } => handle_delete(name),
     }
 }
-
+//
 // Handler function stubs returning Result<()>
-
+//
 fn handle_init() -> Result<()> {
     info!("Initializing new vault");
     println!("Initializing new vault...");
